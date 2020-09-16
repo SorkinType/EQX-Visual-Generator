@@ -82,7 +82,7 @@ function build(cb) {
 			.pipe(rename(function (path) {
 				path.extname = ".html";
 			}))
-			.pipe(dest(buildPath))
+			.pipe(dest(buildPath+"/html"))
 			.pipe(server.stream());
 		}));
 }
@@ -90,7 +90,7 @@ function build(cb) {
 
 // Clean
 function preClean(cb) {
-	return del(buildPath + "**/*");
+	return del(buildPath + "html/**/*");
 }
 function postClean(cb) {
 	return del([stylDist, jsDefaultsDist]);
