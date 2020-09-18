@@ -53,7 +53,7 @@ const jsDefaultsDist = buildPath + 'defaults.js';
 function buildDefaults(cb) {
 	return src(jsDefaultsSrc)
 		.pipe(uglify())
-		.pipe(inject.prepend('<script>'))
+		.pipe(inject.prepend('<script id="eqxDefaults">'))
 		.pipe(inject.append('</script>'))
 		.pipe(rename('defaults.js'))
 		.pipe(dest(buildPath));
