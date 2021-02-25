@@ -22,6 +22,7 @@ var eqxDefaults = [
    { name: '.eqx-cb3i', wdth: '87', opsz: '30', wght: '700', style: 'italic' },
    { name: '.eqx-cb4i', wdth: '87', opsz: '30', wght: '900', style: 'italic' },
 
+
    /* Headline */
    { name: '.eqx-cc1', wdth: '87', opsz: '70', wght: '300' },
    { name: '.eqx-cc2', wdth: '87', opsz: '70', wght: '400' },
