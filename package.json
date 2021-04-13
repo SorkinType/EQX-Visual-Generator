@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/quitequinn/Birra-Homepage#readme",
   "devDependencies": {
+    "browser-sync": "^2.26.14",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
@@ -28,8 +29,7 @@
     "gulp-rename": "^2.0.0",
     "gulp-stylus": "^2.7.0",
     "gulp-uglify": "^3.0.2",
-    "gulp-watch": "^5.0.1",
     "gulp-uglifycss": "^1.1.0",
-    "browser-sync": "^2.26.12"
+    "gulp-watch": "^5.0.1"
   }
 }
